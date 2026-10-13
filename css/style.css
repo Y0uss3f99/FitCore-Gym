@@ -1,0 +1,602 @@
+html,body{
+    margin: 0;
+    padding:0;
+}
+p{
+    color: rgb(80, 75, 75);
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: auto;
+}
+.main .main_ttm{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 80px;
+    padding: auto;
+
+}
+.main .ttm{
+    width: 60%;
+    display: inline-block;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    bottom: 20px;
+
+}
+.main .main_ttm .clear_fix{
+    clear: both;
+}
+.main .ttm_img{
+    width: 30%;
+    margin: auto;
+    padding: auto;
+}
+.main .ttm_img img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.main .main_ttm .ttm .ttm_h1{
+    width: 80%;
+}
+.main .main_ttm .ttm .ttm_h1 h1{
+    width: 100%;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: auto;
+    padding: auto;
+
+}
+.main .main_ttm .ttm .ttm_P{
+     width: 80%;
+}
+.main .main_ttm .ttm p{
+    width: 100%;
+    font-size: 1.6rem;
+    position: relative;
+    top: 20px;
+    margin: auto;
+}
+.main #b2{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(204, 204, 204);
+    width: 35%;
+}
+.ttm_span{
+    width: 80%;
+}
+.main .span1{
+    text-align: center;
+    display: inline-block;
+    width: 40%;
+    color: white;
+    font-size: 110%;
+    cursor: pointer;  
+    border-radius: 5px;
+    background-color: black;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+.main .Choose{
+    text-align: center;
+    width: 75%;
+    margin:auto;
+    position:relative;
+    top: 270px;
+}
+ .main .para{
+    text-align: center;
+ }
+.main .para #para_h2,#para_p{
+    text-align: center;
+    font-family: arial;
+}
+#para_h2{
+    font-size: 2.3rem;
+    font-family: arial;
+}
+#para_p{
+    font-size: 1.2rem;
+}
+.main .card-container{
+    margin: 0;
+    width: 100%;
+}
+.main .card-container .card{
+    width:29%;
+    height: 190px;
+    float: left;
+    margin: auto;
+    border-radius: 9px;
+}
+.main .card-container #card1{
+    background-color:hsla(240, 100%, 84%, 0.405);
+     padding: 10px;
+     margin: 5px;
+}
+.main .card-container #card2{
+    background-color:rgba(144, 229, 169, 0.74);
+     padding: 10px;
+     margin: 5px;
+}
+.main .card-container #card3{
+    background-color: rgba(197, 126, 255, 0.42);
+     margin: 5px;
+    padding: 10px;
+}
+.main .card-container .card .icon{
+    text-align: center;
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+    border-radius: 15px; 
+}
+.main .card-container .card .icon1{
+    background-color: hsla(240, 53%, 44%, 0.829);
+    width: 60px;
+    height: 70px;
+}
+.main .card-container .card .icon2{
+    background-color: rgba(36, 255, 12, 0.694);
+    width: 70px;
+    height: 70px;
+
+}
+.main .card-container .card .icon3{
+    background-color: rgba(174, 96, 237, 0.783);
+    width: 70px;
+    height: 70px;
+
+}
+.main .in_icon1{
+    display:inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 15px;
+}
+.main .in_icon2{
+    display:inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 9px;
+}
+.main .in_icon3{
+    display:inline-block;
+    text-align: center;
+    width: 25px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 9px;
+}
+
+.main .card_p{
+    font-size: 0.8rem;
+    font-weight:420px;
+    color: rgb(100, 99, 99);
+}
+.choose_why{
+    width:75%;
+    margin: auto;
+    padding: auto;
+    position:relative;
+    top: 300px;
+}
+.choose_why .why_img1{
+    width: 30%;
+    margin: auto;
+    padding: auto;
+}
+.choose_why .why_img1 img{
+    width: 100%;
+    border-radius: 60px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.choose_why .float_choose{
+    width: 50%; 
+    float: left;
+}
+.choose_why .why-p h2{
+    box-sizing: border-box;
+    padding: 10px;
+}
+.choose_why .why-p .p1 {
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 3px;
+}
+.choose_why .why-p .p2 {
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 3px;
+}
+.choose_why .why-p .p3 {
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 3px;
+}
+.choose_why .why-p .p1 .para_card1{
+    width: 90%;
+    height: 90px;
+}
+.choose_why .why-p .p1 .line1{
+    background-color: black;
+    box-sizing: border-box;
+    padding: 1px;
+    margin: 1px;
+    margin: 3px;
+    width: 3px;
+    height:80px ;
+}
+.main .choose_why .why-p .p1 .card_li_para1{
+    float: left ;
+}
+.main .choose_why .why-p .p2 .para_card2{
+    width: 90%;
+    height: 90px;
+}
+.main .choose_why .why-p .p2 .line2{
+    background-color: black;
+    box-sizing: border-box;
+    padding: 1px;
+    margin: 1px;
+    margin: 3px;
+    width: 3px;
+    height:90px ;
+}
+.main .choose_why .why-p .p2 .card_li_para2{
+    float: left ;
+}
+.choose_why .why-p .p3 .para_card3{
+    width: 90%;
+    height: 90px;
+}
+.choose_why .why-p .p3 .line3{
+    background-color: black;
+    box-sizing: border-box;
+    padding: 1px;
+    margin: 1px;
+    width: 3px;
+    height:100px ;
+}
+.choose_why .why-p .p3 .card_li_para3{
+    float: left ;
+}
+.clear_fix{
+    clear: both;
+}
+.main .main_Review{
+    width: 100%;
+    height: 700px;
+    padding: auto;
+    margin: auto; 
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: rgb(245, 245, 255);
+    position: relative;
+    top: 400px;
+}
+.mani .main_Review .Review{
+    width: 80%;
+}
+.main_Review .count_add{
+    text-align: center;
+    width: 91%;
+    background-color: rgb(229, 243, 255);
+    position: relative;
+    left: 10%;
+    top: 30px;
+    border-radius: 10px;
+}
+.main_Review .addres{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: arial;
+    font-weight: bold;
+}
+.main_Review .addres h2{
+    font-size: 2rem;
+}
+.main_Review .addres p{
+    font-size: 1.3rem;
+}
+.main_Review .Review .card_review{
+    width: 30%;
+    height: 250px;  
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 3px;
+    padding: auto;
+    position: relative;
+    left: 10%;
+    border-radius: 9px;
+
+}
+.clear_fix{
+    clear:flex;
+}
+.main_Review .Review .name img{
+    width: 40%;
+    border-radius: 50%;
+}
+.main_Review .Review .name {
+    width: 50%;
+    float: left;
+}
+.cardR_1{
+    background-color:rgba(159, 159, 255, 0.5);  
+}
+.cardR_2{
+    background-color:rgba(197, 248, 212, 0.5);
+}
+.cardR_3{
+    background-color: rgba(203, 139, 255, 0.5);
+}
+.main .main_Review.count_add{
+    text-align: center;
+    width:100%;
+    background-color: rgb(248, 248, 255);
+    position: relative;
+    left: 10%;
+    top: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 3%;
+}
+.main_Review .count_add .cl {
+    text-align: center;
+    float: left;
+    height: 150px;
+    width: 24%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.main_Review .count_add .cl span{
+    font-size: 2.5rem;
+}
+.main_Review .count_add .cl p{
+     font-size: 0.9rem;
+}   
+
+.Membership{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    top: 200px;
+}
+.Membership .Membership_input{
+    width: 70%;
+    background-color: rgb(250, 251, 251);
+    position: relative;
+    left: 10%;
+    top: 3px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 4%;
+    margin: 3%;
+}
+.Membership  {
+    position: relative;
+    top: 350px;
+}
+.Membership .Membership_input .name{
+    width: 110%;
+    box-sizing: border-box;
+    padding: 3%;
+    margin: 1.5%;
+
+}
+.Membership .Membership_input .name .NA{
+    float: left;
+    width: 50%;
+    font-family: arial;
+    border-radius: 3px;
+}
+.Membership .Membership_input .NA .FLname{
+    width: 83%;
+    font-size: 1.1rem;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+    border: 1px solid rgb(106, 105, 105);
+    box-sizing: border-box;
+    padding: 3%;
+    color:rgb(221, 210, 210);
+
+
+}
+.Membership_input .clear_fix{
+    clear: flex;
+}
+.Membership .Membership_input label{
+    font-size: 1.3rem;
+    color: rgb(123, 122, 122);
+}
+.Membership .Membership_input .email{
+   box-sizing: border-box;
+    padding: 3%;
+    margin: 1.5%;
+
+}
+.Membership .Membership_input #email_input{
+    width: 100%;
+    margin: auto;
+    font-size: 1.3rem;
+    font-family: arial;
+    border-radius: 7px;
+    border: 1px solid rgb(106, 105, 105);
+    box-sizing: border-box;
+    padding: 2%;
+    color:rgb(221, 210, 210);
+
+}
+.Membership .Membership_input .Phone{
+    box-sizing: border-box;
+    padding: 3%;
+    margin: 1.5%;
+}
+.Membership .Membership_input #Phone_inout{
+    width: 100%;
+    margin: auto;
+    font-size: 1.3rem;
+    font-family: arial;
+    border-radius: 7px;
+    border: 1px solid rgb(106, 105, 105);
+    box-sizing: border-box;
+    padding: 2%;
+    color:rgb(221, 210, 210);
+
+}
+.Membership .Membership_input .Membership_Type{
+    box-sizing: border-box;
+    padding: 3%;
+    margin: 1.5%;
+}
+.Membership .Membership_input .select_opthion{
+    width: 100%;
+    margin: auto;
+    font-size: 1.3rem;
+    font-family: arial;
+    border-radius: 7px;
+    border: 1px solid rgb(106, 105, 105);
+    box-sizing: border-box;
+    padding: 2%;
+
+
+}
+.Membership .Membership_input .Fitness_goal{
+    box-sizing: border-box;
+    padding: 3%;
+    margin: 1.5%;
+}
+.Membership .Membership_input .goal{
+    width: 100%;
+    margin: auto;
+    font-size: 1.1rem;
+    font-family: arial;
+    border-radius: 7px;
+    border: 1px solid rgb(106, 105, 105);
+    box-sizing: border-box;
+    padding: 2%;
+    color:rgb(221, 210, 210);
+
+}
+.Membership .Membership_input .button_Membership{
+    width: 100%;
+    margin: auto;
+    font-size: 1.6rem;
+    font-family: arial;
+    border-radius: 7px;
+    border: 1px solid rgb(106, 105, 105);
+    box-sizing: border-box;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 20px;
+    color:rgb(221, 210, 210);
+
+
+}
+.Membership .Membership_input #p_Membership{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    color:rgb(162, 160, 160);
+
+}
+.mian_footer{
+    width: 100%;
+    background-color:rgb(5, 15, 42);
+    margin: auto;
+    padding: 10px 0;
+    display: inline-block;
+    clear: both;
+    position: relative;
+    top: 500px;
+    left: 0;
+}
+.mian_footer .footer{
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 2%;
+
+}
+.mian_footer .clear_flex{
+    clear: both;
+}
+.mian_footer .media{
+     float: left;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 2%;
+}
+.mian_footer .media_link a{
+    text-decoration: none;
+    color: rgb(123, 120, 120);
+    
+}
+.p_Quick_Links{
+    color: rgb(123, 120, 120);
+}
+.h_Quick_Links{
+    color: rgb(238, 235, 235);
+}
+.link_p{
+    text-decoration: none;
+    display: block;
+    height:30px ;
+    cursor: pointer;
+}
+#hr{
+    width: 70%;
+    color: azure;
+}
+.p_f_b{
+    float: left;
+    width: 50%;
+}
+.p1fd{
+    float: left;
+    width: 30%;
+    position: relative;
+    right: 0;
+    cursor: pointer;
+   
+}
+.p_f_b a{
+ text-decoration: none;
+    color: rgb(146, 145, 145);
+}
